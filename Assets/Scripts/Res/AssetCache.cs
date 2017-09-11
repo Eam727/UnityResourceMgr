@@ -10,6 +10,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Profiling;
 
 // 一个Cache对象, 对于AssetBundle很可能一对多, 对于Resource目录的资源是一对一关系
 public abstract class AssetCache
